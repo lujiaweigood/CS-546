@@ -1,0 +1,17 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Jiawei Lu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.2"
+  }
+}
