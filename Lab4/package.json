@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jiawei Lu 20007605",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.4.0"
+  }
+}
