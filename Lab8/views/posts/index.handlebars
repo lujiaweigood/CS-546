@@ -1,0 +1,11 @@
+<article>
+    <h1>Show Finder</h1>
+    <link rel="stylesheet" href="/public/main_styles.css">
+    <p>This website allows you to search through the TV Maze API for a keyword. You can enter enter a movie keyword to search show the list of move. The result will limit by 5. </p>
+    
+    <form action="/searchshows" method="POST">
+        <label for="showSearchTerm">Searching movie:</label>
+        <input id ="showSearchTerm" type="text" name="showSearchTerm" placeholder="Enter the keyword" />
+        <button type="submit">Submit</button>
+    </form>
+</article>
