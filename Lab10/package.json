@@ -1,0 +1,20 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "Login System",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "start": "node app.js"
+  },
+  "author": "Jiawei Lu 20007605",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+		"bcryptjs": "^2.4.3",
+		"express": "^4.17.1",
+		"express-session": "^1.17.0",
+    "express-handlebars": "^3.1.0",
+    "mongodb": "^4.3.1"
+  }
+}
