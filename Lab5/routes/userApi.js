@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data/');
-
+const userData = require('../data/');
+const data = userData.users;
 
   
 async function main()
